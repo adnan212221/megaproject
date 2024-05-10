@@ -1,0 +1,43 @@
+.main-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(54, 49, 49);
+    
+}
+
+Form{
+    width: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 60%;
+    height: 60%;
+    padding: 70px;
+
+    img{
+        position: relative;
+        width: fit-content;
+        left: 20%;
+        margin-bottom: 10%;
+    }
+
+    button{
+        width: 100%;
+    }
+
+    label{
+        color: white;
+    }
+
+    input{
+        background-color: transparent !important;
+        color: white !important;
+        // width: 10%;
+    }
+
+    // @media only screen and (min-width: 319px) and (max-width: 767px){
+    //     width: 100%;
+    //     height: 60%;
+
+    // }
+}
