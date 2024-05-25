@@ -1,0 +1,47 @@
+.mainjobsection {
+
+    width: 100%;
+    background-color: rgb(42, 36, 36);
+    margin-bottom: 15px;
+    padding: 35px;
+    color: white;
+
+    .cardheader {
+        display: flex;
+
+        .cardimage {
+            width: 60px;
+        }
+
+        .supheader {
+            margin-left: 15px;
+
+            .subheader {
+                display: flex;
+                align-items: center;
+
+
+                .logo {
+                    color: gold;
+
+                }
+
+                .rating{
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
+    .cardheading{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .twoheading{
+            display: flex;
+            align-items: center;
+        }
+    }
+}

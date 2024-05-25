@@ -1,0 +1,187 @@
+body{
+    height: 100%;
+    background-color: black !important;
+}
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    // position: relative;
+}
+
+.job-detail-container{
+    width: 80%;
+    background-color:  rgb(42, 36, 36);
+    height: -webkit-fill-available;
+    margin-top: 5rem;
+    // top: 10%;
+    // left: 10%;
+    // right: 10%;
+    position: relative;
+    border-radius: 20px;
+    bottom: 10%;
+}
+
+.mainjobsection {
+
+    width: 100%;
+    background-color: rgb(42, 36, 36);
+    margin-bottom: 15px;
+    padding: 35px;
+    color: white;
+
+    .cardheader {
+        display: flex;
+
+        .cardimage {
+            width: 60px;
+        }
+
+        .supheader {
+            margin-left: 15px;
+
+            .subheader {
+                display: flex;
+                align-items: center;
+
+
+                .logo {
+                    color: gold;
+
+                }
+
+                .rating{
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+
+    .cardheading{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        .twoheading{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+
+.skills-section{
+
+    margin-top: 3rem;
+
+    .skills{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .skiilss{
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-right: 10px;
+                height: 50px;
+                width: 50px;
+            }
+            .skillname{
+                margin-left: 5px;
+            }
+        }
+    }
+}
+
+.life-section{
+    margin-top: 3rem;
+
+    .lifedescription{
+        margin-top: 2rem;
+        display: flex;
+        gap: 20px;
+
+        .jobdescription{
+            flex: 2;
+        }
+        .office{
+            flex: 1;
+            border-radius: 20px;
+        }
+    }
+}
+
+.main-similar-section{
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    color: white;
+    position:absolute;
+
+    .similar-cards{
+       margin-top: 3rem;
+       justify-content: space-between;
+        display: flex;
+        color: white;
+        gap: 50px;
+        position: absolute;
+
+        .similar-card{
+            padding: 30px;
+            background-color:  rgb(42, 36, 36);
+            border-radius: 20px;  
+            margin-bottom: 3rem;
+            
+
+            .similar-card-image{
+                display: flex;
+
+                .supheader {
+                    margin-left: 15px;
+        
+                    .subheader {
+                        display: flex;
+                        align-items: center;
+        
+        
+                        .logo {
+                            color: gold;
+        
+                        }
+        
+                        .rating{
+                            margin-left: 3px;
+                        }
+                    }
+                }
+
+                img{
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+
+            .description{
+                margin-top: 2rem;
+
+                p{
+                    margin-top: 1rem;
+                }
+            }
+
+            .twoheading{
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+}

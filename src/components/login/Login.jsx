@@ -25,7 +25,6 @@ function BasicExample() {
   });
 
   const token = Cookies.get('jwt');
-//  console.log(token);
   
   const navigate = useNavigate();
 
@@ -45,12 +44,9 @@ function BasicExample() {
 
     const response = await fetch(url, options);
     const data = await response.json();
-    console.log(data);
-    console.log(response, 'res');
+
     if(response.ok === true){
       setuservalue({...uservalue, showerrormssg: false});
-      // const {history} = props;
-      // history.replace('/')
       navigate('/');
       Cookies.set('jwt', data.jwt_token);
 
@@ -65,7 +61,6 @@ function BasicExample() {
   }
 
   const emailchange = (e)=>{
-    // setuservalue({...uservalue, password:e.target.value });
     setuservalue({...uservalue, password: e.target.value})
   }
 

@@ -9,7 +9,6 @@ const Protectedroute = (props) => {
 
  const navigate = useNavigate();
  const token = Cookies.get('jwt');
- console.log(token);
 
  useEffect(() => {
    if (token === undefined){

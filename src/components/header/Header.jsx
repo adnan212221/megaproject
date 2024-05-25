@@ -27,15 +27,15 @@ function BasicExample() {
   }
 
     return (
-      <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar expand="lg" className=" navbar">
         <Container>
-          <Navbar.Brand as={Link} to='/' >React-Bootstrap</Navbar.Brand>
+          <Navbar.Brand as={Link} to='/' >Jobby</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link as={Link} to='/' >Home</Nav.Link>
               <Nav.Link as={Link} to='/jobs' >jobs</Nav.Link>
-              <Nav.Link as={Link} to='/login' onClick={logoff} >{token ? 'login' : 'logout'}</Nav.Link>
+              <Nav.Link as={Link} to='/login' onClick={logoff} >{token ? 'Logout' : 'Login'}</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
